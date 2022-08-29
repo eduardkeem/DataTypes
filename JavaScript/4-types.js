@@ -22,7 +22,7 @@ cities.unshift('New York');
 console.log('shift: ' + cities.shift());
 console.log('pop: ' + cities.pop());
 
-console.log({ i }, typeof i);
+console.log({ i }, typeof i); // Если переменная в скобках, тогда { i: 5 } number
 console.log({ s }, typeof s);
 console.log({ b }, typeof b);
 console.log({ f }, typeof f);
